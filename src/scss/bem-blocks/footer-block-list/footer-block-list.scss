@@ -1,0 +1,9 @@
+.footer-block-list {
+    
+    @media (min-width: 640px) {
+        display: flex;
+        gap: 10.6rem;
+        order: 2;
+        margin: 3rem 0 0;
+    }
+}

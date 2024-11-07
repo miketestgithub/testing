@@ -1,0 +1,46 @@
+.searchbox {
+    position: relative;
+    @media (max-width: 640px) {
+        top: -5.5rem;
+        position: absolute;
+        right: 0;
+    }
+
+}
+.searchbox-input-holder {
+    @media (max-width: 640px) {
+        input {
+            display: none;
+        }
+    }
+    @media (min-width: 640px) {
+        width: 25rem;
+        height: 3.8rem;
+    }
+}
+.searchbox-search-icon {
+    position: absolute;
+    right: 1.5rem;
+    top: 0.3rem;
+    background-color: transparent;
+    border: none;
+    height: 3rem;
+    width: 3rem;
+    svg  {
+        width: 200%;
+        display: block;
+    }
+    @media (min-width: 640px) {
+        height: 2rem;
+        width: 2rem;
+        right: 0.7rem;
+        top: 1rem;
+        path {
+            stroke: rgba(165, 165, 165, 1);
+        }
+        
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}

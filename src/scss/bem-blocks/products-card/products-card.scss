@@ -1,0 +1,28 @@
+.products-card {
+    width: 12rem;
+    text-align: center;
+    @media (min-width: 640px) {
+        width: 11.7rem;
+    }
+}
+.products-card-imagebox {
+    border: 1px solid rgba(158, 158, 158, 0.7);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 0.8rem;
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+.prop-item {
+    font-family: var(--font-family-forms);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+.product-name {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+    margin-bottom: 0.5rem;
+}

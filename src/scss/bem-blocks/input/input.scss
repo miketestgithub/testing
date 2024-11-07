@@ -1,0 +1,16 @@
+.input {
+    border: 1px solid rgba(203, 203, 203, 1);
+    border-radius: .2rem;
+    height: 5rem;
+    width: 100%;
+    background-color: rgba(235, 235, 235, 1);
+    font-family: var(--font-family-forms);
+    padding-left: 1.4rem;
+    &::placeholder {
+        color: rgba(183, 183, 183, 1);
+    }
+}
+
+.input-holder {
+    height: 5rem;
+}

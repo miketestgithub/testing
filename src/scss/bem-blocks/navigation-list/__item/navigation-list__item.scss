@@ -1,0 +1,12 @@
+.navigation-list__item {
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    transition: all 0.2s ease;
+    width: 14.3%;
+    &:hover {
+        color: #000;
+        background-color: #cecece;
+    }
+}

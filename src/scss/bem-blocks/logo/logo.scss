@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    @media (max-width: 640px) {
+        justify-content: center;
+    }
+    @media (min-width: 640px) {
+        order: 1;
+    }
+}
+.logo__img {
+    position: relative;
+    bottom: -0.3rem;
+}
+.logo__text {
+    color:rgba(66, 66, 66, 1);
+    font-size: 3.4rem;
+    line-height: 5rem;
+    font-weight: 300;
+}

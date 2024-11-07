@@ -1,0 +1,23 @@
+.socialnetwork-list__item {
+    width: 3.3rem;
+    height: auto;
+    @media (min-width: 640px) {
+        width: 5.2rem;
+    }
+    a {
+        width: 100%;
+    }
+    svg {
+        width: 100%;
+        display: block;
+        path {
+            fill: rgba(66, 66, 66, 1);
+            transition: all 0.3s ease;
+        }
+        &:hover {
+            path {
+                fill: #00ff4f;
+            }
+        }
+    }
+}

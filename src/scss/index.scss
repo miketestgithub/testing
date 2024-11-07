@@ -1,0 +1,92 @@
+@use './bem-blocks/button/button';
+@use './bem-blocks/button/_form/button_form';
+
+@use './bem-blocks/input/input';
+@use './bem-blocks/input/_search/input_search';
+
+
+@use './bem-blocks/flyout/flyout';
+@use './bem-blocks/text-overlfower-ellipsis/text-overflower-ellipsis';
+
+@use './bem-blocks/loader/loader';
+
+
+
+@use './bem-blocks/header/header';
+@use './bem-blocks/navigation-list/navigation-list';
+@use './bem-blocks/navigation-list/__widther/navigation-list__widther';
+@use './bem-blocks/navigation-list/__item/navigation-list__item';
+@use './bem-blocks/navigation-list/__item/_active/navigation-list__item_active';
+@use './bem-blocks/navigation-list/__link/navigation-list__link';
+
+@use './bem-blocks/searchbox/searchbox';
+@use './bem-blocks/menu-icon/menu-icon';
+@use './bem-blocks/breadcrumbs/breadcrumbs';
+@use './bem-blocks/breadcrumbs/__itm/breadcrumbs__itm';
+
+
+@use './bem-blocks/content/content';
+@use './bem-blocks/page-title/page-title';
+
+@use './bem-blocks/products-list/products-list';
+
+@use './bem-blocks/products-card/products-card';
+@use './bem-blocks/products-card/__button/products-card__button';
+
+
+@use './bem-blocks/showmore/showmore';
+
+@use './bem-blocks/sidebox/sidebox';
+@use './bem-blocks/sidebox-title/sidebox-title';
+@use './bem-blocks/sidebox-title/__text/sidebox-title__text';
+@use './bem-blocks/form-text/form-text';
+@use './bem-blocks/signup/signup';
+
+
+@use './bem-blocks/footer/footer';
+@use './bem-blocks/footer-block-list/footer-block-list';
+@use './bem-blocks/footer-block/footer-block';
+@use './bem-blocks/logo/logo';
+
+
+@use './bem-blocks/socialnetwork-list/socialnetwork-list';
+@use './bem-blocks/socialnetwork-list/__item/socialnetwork-list__item';
+
+@use './bem-blocks/browsers-list/browsers-list';
+
+
+:root {
+    font-size: 10px;
+
+    --site-width-max: 117rem;
+
+    --color-dark1: #010101;
+    --color-dark2: #0D0D0D;
+    --black-with-opacity: rgba(6, 6, 6, 0.8);
+    --font-family-main: "Oswald";
+    --font-family-forms: "Arial";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+a {
+    color: #000;
+}
+ul {
+    marker: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: var(--font-family-main);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    @media (min-width: 640px) {
+        background: url('../img/bg.png') repeat 0 0 #000; 
+    }         
+}

@@ -1,0 +1,13 @@
+.navigation-list {
+    --navigation-bg: var(--black-with-opacity);
+    background-color: var(--navigation-bg);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+
+    @media (min-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+}

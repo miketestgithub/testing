@@ -1,5 +1,5 @@
 {
-  "name": "try",
+  "name": "test",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "gulp/scss/bem",
   "type": "module",
   "browserslist": [
     "last 3 versions",

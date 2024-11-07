@@ -1,0 +1,22 @@
+.button {
+    background: linear-gradient(180deg, rgba(84, 84, 84, 0.9) 0%, #545454 100%);
+    border-radius: 0.2rem 0.2rem;
+    box-shadow: 0px 1px 0px 0px rgba(136, 136, 136, 1) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 0.85rem 2.4rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: var(--font-family-forms);
+    display: inline-block;
+    transition: all 0.3s ease;
+    &:hover {
+        cursor: pointer;
+        background: linear-gradient(180deg, rgba(65, 65, 65, 0.9) 0%, #292929 100%);
+    }
+}
+.button-holder {
+
+}
+.button-holder_align_right {
+    text-align: right;
+}

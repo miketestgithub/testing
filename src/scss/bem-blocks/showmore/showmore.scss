@@ -1,0 +1,17 @@
+.showmore {
+    text-align: center;
+    
+    @media (max-width: 640px) {
+        display: none;
+    }
+}
+.showmore__link {
+    font-size: 1.6rem;
+    font-family: var(--font-family-forms);
+    color: rgba(66, 66, 66, 1);
+    font-weight: 400;
+    line-height: 1.8rem;
+    &:hover {
+        text-decoration: none;
+    }
+}

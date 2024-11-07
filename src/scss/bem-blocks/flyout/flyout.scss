@@ -1,0 +1,39 @@
+.flyout {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem 1.5rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 14.4rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 1.4rem);
+    transform: translateX(-50%);
+    &:after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+        width: 0; 
+        height: 0; 
+        border-left: 1.2rem solid transparent;
+        border-right: 1.2rem solid transparent;
+        border-top: 1.2rem solid rgba(0, 0, 0, 0.8);
+    }
+    @media (min-width: 640px) {
+        width: 25rem;
+    }
+}
+.flyout__title {
+    font-family: var(--font-family-forms);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+.flyout__text {
+    font-family: var(--font-family-forms);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
